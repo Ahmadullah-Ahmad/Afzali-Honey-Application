@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  dark mode colors
+top level bg-[#111827]//middle level bg-[#1f2937] / buttom level dark:bg-[#374151] */
+.darkModeTop {
+  @apply dark:border-gray-900 dark:bg-[#111827] dark:text-gray-100 dark:even:bg-[#111827];
+}
+
+.darkModeMiddle {
+  @apply dark:border-gray-900 dark:bg-[#1f2937] dark:text-gray-100 dark:even:bg-[#1f2937];
+}
+
+.darkModeButtom {
+  @apply dark:border-gray-900 dark:bg-[#374151] dark:text-gray-100 dark:even:bg-[#374151];
+}
+
+.darkModeSubimt {
+  @apply dark:bg-blue-300;
+}
+.darkModeCancel {
+  @apply dark:bg-gray-300;
+}
+
+.textWrap {
+  text-wrap: wrap;
+}
+/* top level bg-[#111827]//middle level bg-[#1f2937] / buttom level dark:bg-[#374151] */
+.buttonText {
+  font-size: 16px;
+}
